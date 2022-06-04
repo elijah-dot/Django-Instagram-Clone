@@ -3,6 +3,7 @@ from post.models import Tag, Stream,Follow, Post
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 
+
 def index(request):
     user = request.user
     posts = Stream.objects.filter(user=user)
