@@ -41,6 +41,9 @@ INSTALLED_APPS = [
     
     'authy.apps.AuthyConfig',
     'post.apps.PostConfig',
+    'comment.apps.CommentConfig',
+    'directs.apps.DirectsConfig',
+    'notifications.apps.NotificationsConfig',
 ]
 
 MIDDLEWARE = [
