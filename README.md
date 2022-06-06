@@ -62,16 +62,8 @@
 ## Behaviour Drriven Development
 
 <ol>
-<li>displays all the photos with defferent categories</li>
-<li>Displays form for new_category,description,existing categories and file.<ul>
-<li>INPUT:"description"</li>
-<li>INPUT:"existing categories"</li>
-<li>INPUT:"file to be displayed as photo"</li>
-<li>INPUT:"new_category"</li>
-<li>INPUT:"submit"</li>
-
-<li>OUTPUT:"Displays users photo.</li>
-
+<li>displays all the photos posted with likes and comments</li>
+<li>Displays users profile<ul>
 </ul> 
 </ol>
 
