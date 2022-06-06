@@ -91,9 +91,9 @@ DATABASES = {
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'dim',
+#         'NAME': 'jam',
 #         'USER': 'moringa',
-#     'PASSWORD':'int',
+#     'PASSWORD':'kid',
 #     }
 # }
 

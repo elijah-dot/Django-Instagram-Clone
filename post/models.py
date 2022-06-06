@@ -40,7 +40,7 @@ class Tag(models.Model):
 class Post(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     picture = models.ImageField(upload_to=user_directory_path, verbose_name="Picture")
-    caption = models.CharField(max_length=10000, verbose_name="Caption")
+    caption = models.CharField(max_length=1000, verbose_name="Caption")
     posted = models.DateField(auto_now_add=True)
     tags = models.ManyToManyField(Tag, related_name="tags")
     user = models.ForeignKey(User, on_delete=models.CASCADE)
