@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.centerm {
+  background-color: aliceblue;
+  position: absolute;
+  border-radius: 12px;
+}
+#particles-js {
+  height: 90vh;
+  width: 100vw;
+  background-color: black;
+  position: relative;
+}
